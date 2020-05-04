@@ -1,0 +1,11 @@
+{
+  "s_r2p": "select id,Lat,Lon from mroad where Road=%s and AADFYear<=2014 and AADFYear>=2012;",
+  "s_ll":"select Latitude,Longitude,Accident_Index from acident",
+  "s_3p": "select Latitude,Longitude,Accident_Index,1st_Road_Number from acident where 1st_Road_Class=3",
+  "wor": "UPDATE acident set near_id='%s',distance_road='%s' where Accident_Index='%s';",
+  "little_point": "SELECT near_id,distance_road from acident where near_id is not Null;",
+  "s_cn": "SELECT id,AllMotorVehicles,PedalCycles,Motorcycles,CarsTaxis,BusesCoaches,LightGoodsVehicles,AllHGVs FROM mroad where id=%s",
+  "super_s": "SELECT Latitude,Longitude from acident where  1st_Road_Number in (select 1st_Road_Number from acident GROUP BY 1st_Road_Number HAVING count(1st_Road_Number)>2000) and 1st_Road_Class=3;",
+  "s_pp": "SELECT Latitude,Longitude from acident where Latitude>51.471405135763256 and Latitude<51.54335086423675 and Longitude< -0.09187213576325076 and Longitude>-0.1638178642367492;",
+  "s_npp":  "SELECT Latitude,Longitude,Accident_Index from acident where Latitude>%s and Latitude<%s and Longitude< %s and Longitude>%s;"
+}

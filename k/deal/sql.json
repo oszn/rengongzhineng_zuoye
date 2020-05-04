@@ -1,0 +1,6 @@
+{
+  "lll2014": "select Lat,Lon,AllMotorVehicles from mroad where AADFYear=2014",
+  "ll2014": "SELECT Latitude,Longitude from acident where Year=2014 LIMIT 0,50000",
+  "lllr2014": "select Lat,Lon,AllMotorVehicles,Road from mroad where AADFYear=2014"
+
+}

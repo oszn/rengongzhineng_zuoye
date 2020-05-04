@@ -1,0 +1,12 @@
+{
+  "Junction_Control": "SELECT DISTINCT Junction_Control from acident ",
+  "Pedestrian_Crossing_Human_Control": "SELECT DISTINCT Pedestrian_Crossing_Human_Control FROM acident;",
+  "Pedestrian_Crossing_Physical_Facilities":"SELECT DISTINCT Pedestrian_Crossing_Physical_Facilities FROM acident;",
+  "Light_Conditions": "SELECT DISTINCT Light_Conditions FROM acident;",
+  "Weather_Conditions": "SELECT DISTINCT Weather_Conditions FROM acident;",
+  "Road_Type": "SELECT DISTINCT Road_Type FROM acident;",
+  "Road_Surface_Conditions": "SELECT DISTINCT Road_Surface_Conditions FROM acident;",
+  "Special_Conditions_at_Site": "SELECT DISTINCT Special_Conditions_at_Site FROM acident;",
+  "Carriageway_Hazards": "SELECT DISTINCT Carriageway_Hazards FROM acident;",
+  "Did_Police_Officer_Attend_Scene_of_Accident": "SELECT DISTINCT Did_Police_Officer_Attend_Scene_of_Accident FROM acident;"
+}
